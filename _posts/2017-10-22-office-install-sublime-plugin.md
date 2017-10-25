@@ -3,6 +3,7 @@ layout: post
 title:  "离线安装Sublime插件!"
 date:   2017-10-22
 categories: Levan update
+tags: sublime plugin
 ---
 
 ####  步骤如下：
