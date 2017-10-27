@@ -22,7 +22,18 @@ public_desc: >-
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://levanax.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # url: ""
+
 github_username:  levanax
+
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/feed.xml"
+        - "/about/index.html"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
 
 # Build settings
 markdown: kramdown
